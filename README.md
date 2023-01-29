@@ -12,20 +12,21 @@ This project has the following requirments:
 In `phone.js` file, the Telephone class is in line 2 while AddPhoneNumber, RemovePhoneNumber, and DialPhoneNumber methods can be found in lines 9, 18 and 26 respectively.
 
 - Update Telephone Class to Use Observer Pattern <br/>
-This was applied in lines 40 and and 49 of the `phone.js` file
+This was applied in lines 40 and and 49 of the `phone.js` file.
 
 - A Class for Observer Pattern <br>
-Line 49 in `phone.js` file, shows a class for Observer pattern 
+Line 49 in `phone.js` file, shows a class for Observer pattern.
 
 - Telephone Class Notify Observer Anytime Phone Number is Dailed <br/>
 This can also be found in line 40 of the `phone.js` file.
 
 - Add Two Observer to the Telephone Class <br/>
-In `app.js` lines 7 and 8, we have two observers to the telephone class
+In `app.js` lines 7 and 8, we have two observers to the telephone class.
 
 ### Note
 - Phone Number must be added(to the observersArray) before it can be dailed.
-- In `phone.js` file, line 22 will throw an error because the phone number has not being added before it was dailed 
+
+- In `phone.js` file, line 22 will throw an error because the phone number has not being added before it was dailed.
 
 
 ### Usage
