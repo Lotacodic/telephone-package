@@ -1,24 +1,25 @@
-## Sample
-  - This is the expected output when `app.js` is run in terminal
+### Sample
+This is the expected output when `app.js` is run on terminal
 
   <img src="image\Screenshot (386).png">
 
 
-# How it Works, Tests for Requirements
-- Telephone Class and Public Methods
-  - 
+### Tests for Requirements
 
-
-# Requirements-Of-Telephone-Package
 This project has the following requirments:
-- Telephone Class with this 3 public methods - AddPhoneNumber, RemovePhoneNumber, and DialPhoneNumber
-- Update the telephone class, so it uses the observer pattern
-- Create a class for the observer, it should have a method that can be called by the telephone class to notify it
-- Have the telephone class notify the observers any time a phone number is dialed
-- Add two Observer to the telephone class
+- Telephone Class with 3 Public Methods 
+In `phone.js` Telephone class is in line 2, AddPhoneNumber, RemovePhoneNumber, and DialPhoneNumber can be found in lines 9, 18 and 26 respectively.
+- Update Telephone Class to Use Observer Pattern
+This was applied in lines 40 and and 49 of the `phone.js` file
+- A Class for Observer Pattern
+Line 49 in `phone.js` file, shows a class for Observer pattern 
+- Telephone Class Notify Observer Anything Phone Number is Dailed
+This can also be found in line 40 of the `phone.js` file.
+- Add Two Observer to the Telephone Class 
+In `app.js` lines 7 and 8, we have two observers to the telephone class
 
 
-## Usage
+### Usage
 - `clone` this project with this command below or any preferred method, cd into the `telephone-package` folder
 ```
 git clone https://github.com/lotacodic/telephone-package.git
