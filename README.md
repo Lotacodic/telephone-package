@@ -1,7 +1,7 @@
 ## Sample
   - This is the expected output when `app.js` is run in terminal
 
-  <img src="\telephone-package\image\Screenshot (386).png">
+  <img src="image\Screenshot (386).png">
 
 
 # How it Works, Tests for Requirements
